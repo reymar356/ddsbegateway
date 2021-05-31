@@ -31,6 +31,8 @@ $app = new Laravel\Lumen\Application(
  
  $app->configure('auth');
 
+ $app->configure('database');
+
 
 /*
 |--------------------------------------------------------------------------
